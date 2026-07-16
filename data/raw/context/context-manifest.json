@@ -1,0 +1,63 @@
+{
+  "purpose": "context-window layers for false-creek-adaptation-sandbox",
+  "context_window_epsg26910": {
+    "minx": 491550.0,
+    "miny": 5457350.0,
+    "maxx": 492500.0,
+    "maxy": 5458000.0
+  },
+  "layers": [
+    {
+      "dataset_identifier": "public-streets",
+      "official_source_url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/public-streets/exports/geojson?where=in_bbox%28geom%2C49.26831170754417%2C-123.11697783543794%2C49.27525194803892%2C-123.10228403932166%29",
+      "bbox_wgs84_latlonlatlon": [
+        49.26831170754417,
+        -123.11697783543794,
+        49.27525194803892,
+        -123.10228403932166
+      ],
+      "download_date": "2026-07-12",
+      "file": "public/data/raw/context/public-streets.geojson",
+      "status": "downloaded (90 features)"
+    },
+    {
+      "dataset_identifier": "building-footprints-2015",
+      "official_source_url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/building-footprints-2015/exports/geojson?where=in_bbox%28geom%2C49.26831170754417%2C-123.11697783543794%2C49.27525194803892%2C-123.10228403932166%29",
+      "bbox_wgs84_latlonlatlon": [
+        49.26831170754417,
+        -123.11697783543794,
+        49.27525194803892,
+        -123.10228403932166
+      ],
+      "download_date": "2026-07-12",
+      "file": "public/data/raw/context/building-footprints-2015.geojson",
+      "status": "downloaded (124 features)"
+    },
+    {
+      "dataset_identifier": "parks-polygon-representation",
+      "official_source_url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/parks-polygon-representation/exports/geojson?where=in_bbox%28geom%2C49.26831170754417%2C-123.11697783543794%2C49.27525194803892%2C-123.10228403932166%29",
+      "bbox_wgs84_latlonlatlon": [
+        49.26831170754417,
+        -123.11697783543794,
+        49.27525194803892,
+        -123.10228403932166
+      ],
+      "download_date": "2026-07-12",
+      "file": "public/data/raw/context/parks-polygon-representation.geojson",
+      "status": "downloaded (8 features)"
+    },
+    {
+      "dataset_identifier": "bikeways",
+      "official_source_url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/bikeways/exports/geojson?where=in_bbox%28geom%2C49.26831170754417%2C-123.11697783543794%2C49.27525194803892%2C-123.10228403932166%29",
+      "bbox_wgs84_latlonlatlon": [
+        49.26831170754417,
+        -123.11697783543794,
+        49.27525194803892,
+        -123.10228403932166
+      ],
+      "download_date": "2026-07-12",
+      "file": "public/data/raw/context/bikeways.geojson",
+      "status": "downloaded (64 features)"
+    }
+  ]
+}

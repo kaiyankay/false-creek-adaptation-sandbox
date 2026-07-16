@@ -1,0 +1,149 @@
+{
+  "siteName": "Olympic Village / South False Creek",
+  "generated": "2026-07-16",
+  "crs": "EPSG:26910",
+  "cellSize": 1.0,
+  "width": 950,
+  "height": 650,
+  "context": {
+    "minx": 491550.0,
+    "miny": 5457350.0,
+    "maxx": 492500.0,
+    "maxy": 5458000.0
+  },
+  "centerE": 492025.0,
+  "centerN": 5457675.0,
+  "dem": {
+    "sourceResolutionM": 0.5,
+    "sourceCrs": "EPSG:26910",
+    "verticalDatum": "CGVD28 (City of Vancouver LiDAR 2013 bare-earth)",
+    "nodataCellsBeforeFill": 0,
+    "minElevation": -1.85,
+    "maxElevation": 7.34,
+    "minLandElevation": -1.85,
+    "maxLandElevation": 7.34
+  },
+  "waterLevels": {
+    "datumNote": "metres CGVD28; BASE_WATER_LEVEL approximates present-day higher high water",
+    "base": 1.8,
+    "scenarios": [
+      {
+        "id": "current",
+        "label": "Current",
+        "internalName": "Existing Condition",
+        "offset": 0.0
+      },
+      {
+        "id": "slr05",
+        "label": "+0.5 m",
+        "internalName": "Early Adaptation",
+        "offset": 0.5
+      },
+      {
+        "id": "slr10",
+        "label": "+1.0 m",
+        "internalName": "Transition Pathway",
+        "offset": 1.0
+      },
+      {
+        "id": "slr20",
+        "label": "+2.0 m",
+        "internalName": "Long-Term Transformation",
+        "offset": 2.0
+      }
+    ],
+    "interpretation": "prototype pathway offsets, not engineering flood predictions"
+  },
+  "counts": {
+    "totalCells": 617500,
+    "activeCells": 91443,
+    "contextCells": 526057,
+    "editableCells": 45874,
+    "waterCells": 206243,
+    "shorelineCells": 6886,
+    "buildingCells": 88176,
+    "roadCells": 55337,
+    "parkOpenSpaceCells": 84086,
+    "bridgeCells": 26193,
+    "shorelineOrderLength": 1047
+  },
+  "provenance": [
+    {
+      "role": "active-site-boundary",
+      "projectFile": "public/data/raw/site-boundary.geojson",
+      "originalPath": "/Users/kay/Desktop/LARC580/olympic-village-regulatory-sandbox/gis/input/site-boundary.geojson",
+      "crs": "EPSG:26910",
+      "note": ""
+    },
+    {
+      "role": "streets",
+      "projectFile": "public/data/raw/context/public-streets.geojson",
+      "originalPath": "CoV Open Data: public-streets (context window fetch)",
+      "crs": "EPSG:4326",
+      "note": ""
+    },
+    {
+      "role": "buildings",
+      "projectFile": "public/data/raw/context/building-footprints-2015.geojson",
+      "originalPath": "CoV Open Data: building-footprints-2015 (context window fetch)",
+      "crs": "EPSG:4326",
+      "note": ""
+    },
+    {
+      "role": "parks",
+      "projectFile": "public/data/raw/context/parks-polygon-representation.geojson",
+      "originalPath": "CoV Open Data: parks-polygon-representation (context window fetch)",
+      "crs": "EPSG:4326",
+      "note": ""
+    },
+    {
+      "role": "bikeways",
+      "projectFile": "public/data/raw/context/bikeways.geojson",
+      "originalPath": "CoV Open Data: bikeways (context window fetch)",
+      "crs": "EPSG:4326",
+      "note": ""
+    },
+    {
+      "role": "parcels",
+      "projectFile": "public/data/raw/property-parcel-polygons.geojson",
+      "originalPath": "/Users/kay/Desktop/LARC580/olympic-village-regulatory-sandbox/gis/downloads/official-existing/property-parcel-polygons.geojson",
+      "crs": "EPSG:4326",
+      "note": ""
+    },
+    {
+      "role": "city-owned-points",
+      "projectFile": "public/data/raw/city-owned-properties.geojson",
+      "originalPath": "/Users/kay/Desktop/LARC580/olympic-village-regulatory-sandbox/gis/downloads/official-existing/city-owned-properties.geojson",
+      "crs": "EPSG:4326",
+      "note": ""
+    },
+    {
+      "role": "shoreline",
+      "projectFile": "public/data/raw/shoreline-2002.geojson",
+      "originalPath": "/Users/kay/Desktop/LARC580/olympic-village-regulatory-sandbox/gis/downloads/official-existing/shoreline-2002.geojson",
+      "crs": "EPSG:4326",
+      "note": ""
+    },
+    {
+      "role": "dem-tile",
+      "projectFile": "/Users/kay/Desktop/LARC580/olympic-village-regulatory-sandbox/gis/downloads/lidar-2013/4910E_54570N/4910E_54570N.tif",
+      "originalPath": "/Users/kay/Desktop/LARC580/olympic-village-regulatory-sandbox/gis/downloads/lidar-2013/4910E_54570N/4910E_54570N.tif",
+      "crs": "EPSG:26910",
+      "note": "LiDAR 2013 bare-earth GeoTIFF, 0.5 m, CGVD28"
+    },
+    {
+      "role": "dem-tile",
+      "projectFile": "/Users/kay/Desktop/LARC580/olympic-village-regulatory-sandbox/gis/downloads/lidar-2013/4920E_54570N/4920E_54570N.tif",
+      "originalPath": "/Users/kay/Desktop/LARC580/olympic-village-regulatory-sandbox/gis/downloads/lidar-2013/4920E_54570N/4920E_54570N.tif",
+      "crs": "EPSG:26910",
+      "note": "LiDAR 2013 bare-earth GeoTIFF, 0.5 m, CGVD28"
+    }
+  ],
+  "warnings": [
+    "pedestrian-path cells are a derived band along the official shoreline-2002 line (4.5 m); the seawall walkway is not published as its own layer.",
+    "building cells inside CD-1 (454) are classed 'mixed-use' from the zoning district type; no per-building land-use layer was available.",
+    "building heights are schematic (20 m active site / 10 m context); building-footprints-2015 has no height attribute.",
+    "Cambie Bridge deck elevation (11 m) is schematic; the streets layer has no deck profile."
+  ],
+  "dataMode": "real"
+}

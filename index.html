@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>False Creek Adaptation Sandbox</title>
+    <script type="module" crossorigin src="./assets/index-r3LmwOkC.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DPspFuVb.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      // dev diagnostics: capture the first mount-time exceptions
+      window.__errs = []
+      window.addEventListener('error', (e) => window.__errs.push(String(e.error?.stack || e.message).slice(0, 500)))
+      window.addEventListener('unhandledrejection', (e) => window.__errs.push('REJ: ' + String(e.reason).slice(0, 300)))
+    </script>
+  </body>
+</html>

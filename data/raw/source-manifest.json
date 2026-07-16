@@ -1,0 +1,69 @@
+{
+  "boundary": {
+    "dataset_name": "Zoning districts and labels",
+    "dataset_identifier": "zoning-districts-and-labels",
+    "source_url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/zoning-districts-and-labels/exports/geojson",
+    "zoning_value": "CD-1 (454)",
+    "download_date": "2026-07-10",
+    "crs": "EPSG:26910",
+    "area_m2": 91446.2,
+    "boundary_role": "official_zoning_boundary_candidate"
+  },
+  "dem": {
+    "dataset_name": "LiDAR 2013",
+    "dataset_identifier": "lidar-2013",
+    "tile_index_url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/lidar-2013/exports/geojson",
+    "selected_tiles": [
+      {
+        "tile_id": "4910E_54570N",
+        "geotiff_url": "https://webtransfer.vancouver.ca/opendata/2013GeoTIFF/4910E_54570N.zip",
+        "zip_file": "gis/downloads/lidar-2013/4910E_54570N.zip",
+        "zip_size_bytes": 13416323,
+        "tif_files": [
+          "gis/downloads/lidar-2013/4910E_54570N/4910E_54570N.tif"
+        ]
+      },
+      {
+        "tile_id": "4920E_54570N",
+        "geotiff_url": "https://webtransfer.vancouver.ca/opendata/2013GeoTIFF/4920E_54570N.zip",
+        "zip_file": "gis/downloads/lidar-2013/4920E_54570N.zip",
+        "zip_size_bytes": 14823103,
+        "tif_files": [
+          "gis/downloads/lidar-2013/4920E_54570N/4920E_54570N.tif"
+        ]
+      }
+    ],
+    "download_date": "2026-07-10",
+    "source_rasters": [
+      {
+        "file": "gis/downloads/lidar-2013/4910E_54570N/4910E_54570N.tif",
+        "crs": "EPSG:26910",
+        "resolution": [
+          0.5,
+          0.5
+        ],
+        "nodata": -9999.0
+      },
+      {
+        "file": "gis/downloads/lidar-2013/4920E_54570N/4920E_54570N.tif",
+        "crs": "EPSG:26910",
+        "resolution": [
+          0.5,
+          0.5
+        ],
+        "nodata": -9999.0
+      }
+    ],
+    "output_crs": "EPSG:26910",
+    "output_resolution": [
+      0.5,
+      0.5
+    ],
+    "output_nodata": -9999.0,
+    "vertical_datum": "CGVD28"
+  },
+  "generated_files": [
+    "gis/input/site-boundary.geojson",
+    "gis/input/dem.tif"
+  ]
+}
