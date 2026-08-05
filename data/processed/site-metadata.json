@@ -1,0 +1,171 @@
+{
+ "siteName": "Olympic Village / South False Creek",
+ "generated": "2026-07-31",
+ "crs": "EPSG:26910",
+ "cellSize": 1.0,
+ "width": 1040,
+ "height": 650,
+ "context": {
+  "minx": 491550.0,
+  "miny": 5457350.0,
+  "maxx": 492590.0,
+  "maxy": 5458000.0
+ },
+ "centerE": 492070.0,
+ "centerN": 5457675.0,
+ "dem": {
+  "sourceResolutionM": 0.5,
+  "sourceCrs": "EPSG:26910",
+  "verticalDatum": "CGVD28 (City of Vancouver LiDAR 2013 bare-earth)",
+  "nodataCellsBeforeFill": 0,
+  "minElevation": -1.85,
+  "maxElevation": 7.34,
+  "minLandElevation": -1.85,
+  "maxLandElevation": 7.34
+ },
+ "waterLevels": {
+  "datumNote": "metres CGVD28; BASE_WATER_LEVEL approximates present-day higher high water",
+  "base": 1.8,
+  "scenarios": [
+   {
+    "id": "current",
+    "label": "Current",
+    "internalName": "Existing Condition",
+    "offset": 0.0
+   },
+   {
+    "id": "slr05",
+    "label": "+0.5 m",
+    "internalName": "Early Adaptation",
+    "offset": 0.5
+   },
+   {
+    "id": "slr10",
+    "label": "+1.0 m",
+    "internalName": "Transition Pathway",
+    "offset": 1.0
+   },
+   {
+    "id": "slr20",
+    "label": "+2.0 m",
+    "internalName": "Long-Term Transformation",
+    "offset": 2.0
+   }
+  ],
+  "interpretation": "prototype pathway offsets, not engineering flood predictions"
+ },
+ "counts": {
+  "totalCells": 676000,
+  "activeCells": 91443,
+  "contextCells": 584557,
+  "editableCells": 45874,
+  "waterCells": 207359,
+  "shorelineCells": 7217,
+  "buildingCells": 95625,
+  "roadCells": 60060,
+  "parkOpenSpaceCells": 94975,
+  "bridgeCells": 26193,
+  "shorelineOrderLength": 1429,
+  "roadModelSegments": 52,
+  "roadModelIntersections": 47,
+  "roadIntersectCells": 45877,
+  "existingSeawallSegments": 51,
+  "existingSeawallLengthM": 1015.0,
+  "currentTidalCells": 12793,
+  "futureTidalCells": 145683
+ },
+ "provenance": [
+  {
+   "role": "active-site-boundary",
+   "projectFile": "data/raw/site-boundary.geojson",
+   "originalPath": "CoV Open Data: zoning-districts-and-labels (CD-1 454 boundary)",
+   "crs": "EPSG:26910",
+   "note": ""
+  },
+  {
+   "role": "streets",
+   "projectFile": "data/raw/context/public-streets.geojson",
+   "originalPath": "CoV Open Data: public-streets (context window fetch)",
+   "crs": "EPSG:4326",
+   "note": ""
+  },
+  {
+   "role": "buildings",
+   "projectFile": "data/raw/context/building-footprints-2015.geojson",
+   "originalPath": "CoV Open Data: building-footprints-2015 (context window fetch)",
+   "crs": "EPSG:4326",
+   "note": ""
+  },
+  {
+   "role": "parks",
+   "projectFile": "data/raw/context/parks-polygon-representation.geojson",
+   "originalPath": "CoV Open Data: parks-polygon-representation (context window fetch)",
+   "crs": "EPSG:4326",
+   "note": ""
+  },
+  {
+   "role": "bikeways",
+   "projectFile": "data/raw/context/bikeways.geojson",
+   "originalPath": "CoV Open Data: bikeways (context window fetch)",
+   "crs": "EPSG:4326",
+   "note": ""
+  },
+  {
+   "role": "parcels",
+   "projectFile": "data/raw/property-parcel-polygons.geojson",
+   "originalPath": "CoV Open Data: property-parcel-polygons",
+   "crs": "EPSG:4326",
+   "note": ""
+  },
+  {
+   "role": "city-owned-points",
+   "projectFile": "data/raw/city-owned-properties.geojson",
+   "originalPath": "CoV Open Data: city-owned-properties",
+   "crs": "EPSG:4326",
+   "note": ""
+  },
+  {
+   "role": "shoreline",
+   "projectFile": "data/raw/shoreline-2002.geojson",
+   "originalPath": "CoV Open Data: shoreline-2002",
+   "crs": "EPSG:4326",
+   "note": ""
+  },
+  {
+   "role": "dem-tile",
+   "projectFile": "CoV Open Data: lidar-2013 tile 4910E_54570N (bare-earth GeoTIFF, 0.5 m)",
+   "originalPath": "CoV Open Data: lidar-2013 tile 4910E_54570N (bare-earth GeoTIFF, 0.5 m)",
+   "crs": "EPSG:26910",
+   "note": "LiDAR 2013 bare-earth GeoTIFF, 0.5 m, CGVD28"
+  },
+  {
+   "role": "dem-tile",
+   "projectFile": "CoV Open Data: lidar-2013 tile 4920E_54570N (bare-earth GeoTIFF, 0.5 m)",
+   "originalPath": "CoV Open Data: lidar-2013 tile 4920E_54570N (bare-earth GeoTIFF, 0.5 m)",
+   "crs": "EPSG:26910",
+   "note": "LiDAR 2013 bare-earth GeoTIFF, 0.5 m, CGVD28"
+  },
+  {
+   "role": "street-intersections",
+   "projectFile": "data/raw/street-intersections.geojson",
+   "originalPath": "CoV Open Data: street-intersections (bbox fetch 2026-07-30)",
+   "crs": "EPSG:4326",
+   "note": ""
+  },
+  {
+   "role": "right-of-way-widths",
+   "projectFile": "data/raw/right-of-way-widths.geojson",
+   "originalPath": "CoV Open Data: right-of-way-widths (bbox fetch 2026-07-30)",
+   "crs": "EPSG:4326",
+   "note": ""
+  }
+ ],
+ "warnings": [
+  "pedestrian-path cells are a derived band along the official shoreline-2002 line (4.5 m); the seawall walkway is not published as its own layer.",
+  "building cells inside CD-1 (454) are classed 'mixed-use' from the zoning district type; no per-building land-use layer was available.",
+  "tidal-zone flags are PROTOTYPE bands: current \u2264 2.4 m / future \u2264 3.8 m CGVD28, 8-connected to False Creek water \u2014 not a surveyed tidal datum.",
+  "building heights are schematic (20 m active site / 10 m context); building-footprints-2015 has no height attribute.",
+  "Cambie Bridge deck elevation (11 m) is schematic; the streets layer has no deck profile."
+ ],
+ "dataMode": "real"
+}

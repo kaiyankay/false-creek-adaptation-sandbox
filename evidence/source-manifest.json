@@ -1,0 +1,313 @@
+{
+ "generatedDate": "2026-07-28",
+ "note": "Official sources backing the #/report Evidence & Source Trail. All entries were downloaded from the listed official URLs and hash-verified (2026-07-10 / 2026-07-28). Local copies are served from /evidence/. Page numbers used across the evidence layer are PDF page numbers (1-based), not printed labels.",
+ "sources": [
+  {
+   "id": "sea2city-project-report",
+   "title": "Sea2City Design Challenge \u2014 Project Report",
+   "publisher": "City of Vancouver",
+   "publishedDate": "2022-11",
+   "sourceType": "report",
+   "originalUrl": "https://vancouver.ca/files/cov/sea2city-design-challenge-project-report.pdf",
+   "localPath": "/evidence/sea2city/sea2city-design-challenge-project-report.pdf",
+   "pageCount": 80,
+   "accessDate": "2026-07-10",
+   "official": true,
+   "topics": [
+    "sea2city",
+    "acknowledge",
+    "host",
+    "restore",
+    "shoreline",
+    "habitat",
+    "access"
+   ]
+  },
+  {
+   "id": "sea2city-future-vision",
+   "title": "Sea2City Future Vision",
+   "publisher": "City of Vancouver",
+   "sourceType": "report",
+   "originalUrl": "https://vancouver.ca/files/cov/sea2city-future-vision.pdf",
+   "localPath": "/evidence/sea2city/sea2city-future-vision.pdf",
+   "pageCount": 2,
+   "accessDate": "2026-07-10",
+   "official": true,
+   "topics": [
+    "sea2city",
+    "vision",
+    "naturalized shoreline",
+    "habitat",
+    "flood"
+   ]
+  },
+  {
+   "id": "sea2city-sfc-concepts",
+   "title": "Sea2City South False Creek Concepts Report",
+   "publisher": "City of Vancouver",
+   "publishedDate": "2022-12",
+   "sourceType": "report",
+   "originalUrl": "https://vancouver.ca/files/cov/sea2city-south-false-creek-concepts-report.pdf",
+   "localPath": "/evidence/sea2city/sea2city-south-false-creek-concepts-report.pdf",
+   "pageCount": 40,
+   "accessDate": "2026-07-10",
+   "official": true,
+   "topics": [
+    "sea2city",
+    "south false creek",
+    "living shoreline",
+    "flood",
+    "FCL"
+   ]
+  },
+  {
+   "id": "sea2city-concept-summaries",
+   "title": "Sea2City Design Concept Summaries",
+   "publisher": "City of Vancouver",
+   "publishedDate": "2022",
+   "sourceType": "report",
+   "originalUrl": "https://vancouver.ca/files/cov/sea2city-design-concept-summaries.pdf",
+   "localPath": "/evidence/sea2city/sea2city-design-concept-summaries.pdf",
+   "pageCount": 12,
+   "accessDate": "2026-07-10",
+   "official": true,
+   "topics": [
+    "sea2city",
+    "forest berm",
+    "habitat bench",
+    "habitat islands",
+    "FCL"
+   ]
+  },
+  {
+   "id": "cfra-phase-1",
+   "title": "Coastal Flood Risk Assessment (CFRA) Phase I \u2014 Final Report",
+   "publisher": "City of Vancouver",
+   "publishedDate": "2014-12",
+   "sourceType": "report",
+   "originalUrl": "https://vancouver.ca/files/cov/cfra-phase-1-final_report.pdf",
+   "localPath": "/evidence/flood/vancouver-coastal-flood-risk-assessment-phase-1.pdf",
+   "pageCount": 143,
+   "accessDate": "2026-07-10",
+   "official": true,
+   "topics": [
+    "flood",
+    "FCL",
+    "DFL",
+    "freeboard",
+    "coastal flood risk",
+    "methodology"
+   ]
+  },
+  {
+   "id": "cfra-phase-2",
+   "title": "Coastal Flood Risk Assessment (CFRA) Phase II \u2014 Final Report (Oct 2016 revision)",
+   "publisher": "City of Vancouver",
+   "publishedDate": "2015-12-15",
+   "sourceType": "report",
+   "originalUrl": "https://vancouver.ca/files/cov/cfra-phase-2-final-report-oct-2016-revision.pdf",
+   "localPath": "/evidence/flood/vancouver-coastal-flood-risk-assessment-phase-2.pdf",
+   "pageCount": 114,
+   "accessDate": "2026-07-10",
+   "official": true,
+   "topics": [
+    "flood",
+    "FCL",
+    "scenarios",
+    "2100",
+    "2200",
+    "adaptation alternatives",
+    "seawall"
+   ]
+  },
+  {
+   "id": "fc-coastal-adaptation-plan",
+   "title": "False Creek Coastal Adaptation Plan \u2014 Final Report",
+   "publisher": "City of Vancouver",
+   "publishedDate": "2021-02",
+   "sourceType": "report",
+   "originalUrl": "https://syc.vancouver.ca/projects/false-creek-coastal-adaptation-plan/final-report.pdf",
+   "localPath": "/evidence/flood/false-creek-coastal-adaptation-plan.pdf",
+   "pageCount": 88,
+   "accessDate": "2026-07-10",
+   "official": true,
+   "topics": [
+    "flood",
+    "adaptation",
+    "design with nature",
+    "habitat",
+    "access",
+    "FCL"
+   ]
+  },
+  {
+   "id": "bc-sea-dike-guidelines",
+   "title": "Climate Change Adaption Guidelines for Sea Dikes and Coastal Flood Hazard Land Use",
+   "publisher": "BC Ministry of Environment (prepared by Ausenco Sandwell)",
+   "publishedDate": "2011-01-27",
+   "sourceType": "guideline",
+   "originalUrl": "https://www2.gov.bc.ca/assets/gov/environment/air-land-water/water/integrated-flood-hazard-mgmt/sea_dike_guidelines.pdf",
+   "localPath": "/evidence/flood/bc-sea-dike-guidelines-2011.pdf",
+   "pageCount": 59,
+   "accessDate": "2026-07-28",
+   "official": true,
+   "topics": [
+    "sea level rise",
+    "sea dikes",
+    "coastal flood hazard",
+    "freeboard",
+    "scenario basis"
+   ]
+  },
+  {
+   "id": "flood-plain-standards",
+   "title": "Flood Plain Standards and Requirements (Bulletin)",
+   "publisher": "City of Vancouver",
+   "publishedDate": "2023-03",
+   "sourceType": "regulation",
+   "originalUrl": "https://guidelines.vancouver.ca/guidelines-flood-plain-standards-requirements.pdf",
+   "localPath": "/evidence/regulations/vancouver-flood-plain-standards-and-requirements.pdf",
+   "pageCount": 15,
+   "accessDate": "2026-07-10",
+   "official": true,
+   "topics": [
+    "FCL",
+    "flood plain",
+    "setback",
+    "fill",
+    "regulatory basis"
+   ]
+  },
+  {
+   "id": "vbbl-2025-volume-1",
+   "title": "Vancouver Building By-law 2025 \u2014 Volume 1 (v4.00)",
+   "publisher": "City of Vancouver",
+   "publishedDate": "2025",
+   "sourceType": "regulation",
+   "originalUrl": "https://vancouver.ca/files/cov/vbbl-2025-volume-1-v4-00.pdf",
+   "localPath": "/evidence/regulations/vancouver-building-bylaw-2025-volume-1.pdf",
+   "pageCount": 1072,
+   "accessDate": "2026-07-10",
+   "official": true,
+   "topics": [
+    "building bylaw",
+    "designated flood plain",
+    "FCL",
+    "approvals"
+   ]
+  },
+  {
+   "id": "cd1-454",
+   "title": "CD-1 (454) By-law \u2014 Southeast False Creek / Olympic Village",
+   "publisher": "City of Vancouver",
+   "publishedDate": "2007-04-17",
+   "sourceType": "regulation",
+   "originalUrl": "https://cd1-bylaws.vancouver.ca/CD-1(454).pdf",
+   "localPath": "/evidence/regulations/cd1-454-olympic-village-bylaw.pdf",
+   "pageCount": 7,
+   "accessDate": "2026-07-10",
+   "official": true,
+   "topics": [
+    "zoning",
+    "olympic village",
+    "approvals",
+    "uses"
+   ]
+  },
+  {
+   "id": "sefc-odp",
+   "title": "Southeast False Creek Official Development Plan (consolidated December 2024)",
+   "publisher": "City of Vancouver",
+   "publishedDate": "2024-12",
+   "sourceType": "regulation",
+   "originalUrl": "https://bylaws.vancouver.ca/odp/odp-southeast-false-creek.pdf",
+   "localPath": "/evidence/regulations/sefc-official-development-plan.pdf",
+   "pageCount": 50,
+   "accessDate": "2026-07-10",
+   "official": true,
+   "topics": [
+    "ODP",
+    "shoreline",
+    "habitat",
+    "setback",
+    "public access",
+    "parks"
+   ]
+  },
+  {
+   "id": "bc-flood-hazard-guidelines",
+   "title": "Flood Hazard Area Land Use Management Guidelines (May 2004, amended January 2018)",
+   "publisher": "Province of British Columbia",
+   "publishedDate": "2004-05",
+   "sourceType": "guideline",
+   "originalUrl": "https://www2.gov.bc.ca/assets/gov/environment/air-land-water/water/integrated-flood-hazard-mgmt/flood_hazard_area_land_use_guidelines_2017.pdf",
+   "localPath": "/evidence/regulations/bc-flood-hazard-area-land-use-management-guidelines.pdf",
+   "pageCount": 84,
+   "accessDate": "2026-07-28",
+   "official": true,
+   "topics": [
+    "flood hazard",
+    "land use",
+    "FCL",
+    "setback",
+    "freeboard",
+    "regulatory basis"
+   ]
+  },
+  {
+   "id": "bc-slr-amendment",
+   "title": "Flood Hazard Area Land Use Management Guidelines \u2014 Sea Level Rise Amendment (effective January 1, 2018)",
+   "publisher": "Province of British Columbia",
+   "publishedDate": "2018-01-01",
+   "sourceType": "guideline",
+   "originalUrl": "https://www2.gov.bc.ca/assets/gov/environment/air-land-water/water/integrated-flood-hazard-mgmt/slr_guidelines_amendment_website_final.pdf",
+   "localPath": "/evidence/regulations/bc-flood-hazard-guidelines-slr-amendment-2018.pdf",
+   "pageCount": 28,
+   "accessDate": "2026-07-28",
+   "official": true,
+   "topics": [
+    "sea level rise",
+    "scenario basis",
+    "2050",
+    "2100",
+    "2200",
+    "FCL"
+   ]
+  },
+  {
+   "id": "sefc-policy-statement",
+   "title": "Policy Statement: Southeast False Creek (October 1999)",
+   "publisher": "City of Vancouver",
+   "publishedDate": "1999-10",
+   "sourceType": "report",
+   "originalUrl": "https://guidelines.vancouver.ca/policy-statement-southeast-false-creek.pdf",
+   "localPath": "/evidence/access/sefc-policy-statement-1999.pdf",
+   "pageCount": 87,
+   "accessDate": "2026-07-10",
+   "official": true,
+   "topics": [
+    "public access",
+    "waterfront",
+    "parks",
+    "pedestrian",
+    "habitat"
+   ]
+  },
+  {
+   "id": "dfo-projects-near-water",
+   "title": "Projects near water \u2014 Fish and Fish Habitat Protection Program",
+   "publisher": "Fisheries and Oceans Canada (Government of Canada)",
+   "sourceType": "web",
+   "originalUrl": "https://www.dfo-mpo.gc.ca/pnw-ppe/index-eng.html",
+   "localPath": "/evidence/approvals/dfo-projects-near-water.html",
+   "accessDate": "2026-07-28",
+   "official": true,
+   "topics": [
+    "approvals",
+    "fish habitat",
+    "in-water works",
+    "federal review"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+  "boundary": {
+    "dataset_name": "Zoning districts and labels",
+    "dataset_identifier": "zoning-districts-and-labels",
+    "source_url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/zoning-districts-and-labels/exports/geojson",
+    "zoning_value": "CD-1 (454)",
+    "download_date": "2026-07-10",
+    "crs": "EPSG:26910",
+    "area_m2": 91446.2,
+    "boundary_role": "official_zoning_boundary_candidate"
+  },
+  "dem": {
+    "dataset_name": "LiDAR 2013",
+    "dataset_identifier": "lidar-2013",
+    "tile_index_url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/lidar-2013/exports/geojson",
+    "selected_tiles": [
+      {
+        "tile_id": "4910E_54570N",
+        "geotiff_url": "https://webtransfer.vancouver.ca/opendata/2013GeoTIFF/4910E_54570N.zip",
+        "zip_file": "lidar-2013/4910E_54570N.zip",
+        "zip_size_bytes": 13416323,
+        "tif_files": [
+          "lidar-2013/4910E_54570N/4910E_54570N.tif"
+        ]
+      },
+      {
+        "tile_id": "4920E_54570N",
+        "geotiff_url": "https://webtransfer.vancouver.ca/opendata/2013GeoTIFF/4920E_54570N.zip",
+        "zip_file": "lidar-2013/4920E_54570N.zip",
+        "zip_size_bytes": 14823103,
+        "tif_files": [
+          "lidar-2013/4920E_54570N/4920E_54570N.tif"
+        ]
+      }
+    ],
+    "download_date": "2026-07-10",
+    "source_rasters": [
+      {
+        "file": "lidar-2013/4910E_54570N/4910E_54570N.tif",
+        "crs": "EPSG:26910",
+        "resolution": [
+          0.5,
+          0.5
+        ],
+        "nodata": -9999.0
+      },
+      {
+        "file": "lidar-2013/4920E_54570N/4920E_54570N.tif",
+        "crs": "EPSG:26910",
+        "resolution": [
+          0.5,
+          0.5
+        ],
+        "nodata": -9999.0
+      }
+    ],
+    "output_crs": "EPSG:26910",
+    "output_resolution": [
+      0.5,
+      0.5
+    ],
+    "output_nodata": -9999.0,
+    "vertical_datum": "CGVD28"
+  },
+  "generated_files": [
+    "site-boundary.geojson",
+    "dem.tif"
+  ],
+  "street_intersections": {
+    "dataset_name": "Street intersections",
+    "dataset_identifier": "street-intersections",
+    "source_url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/street-intersections/exports/geojson?where=in_bbox(geo_point_2d,49.268852,-123.116154,49.274712,-123.103108)",
+    "download_date": "2026-07-30",
+    "crs": "EPSG:4326",
+    "licence": "Open Government Licence \u2013 Vancouver",
+    "feature_count": 24,
+    "preprocessing_script": "project preprocessing pipeline (road model derivation)",
+    "processed_output": "data/processed/road-model.json",
+    "note": "official intersection points; used to name/verify topology nodes derived from public-streets"
+  },
+  "right_of_way_widths": {
+    "dataset_name": "Right-of-way widths",
+    "dataset_identifier": "right-of-way-widths",
+    "source_url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/right-of-way-widths/exports/geojson?where=in_bbox(geo_point_2d,49.268852,-123.116154,49.274712,-123.103108)",
+    "download_date": "2026-07-30",
+    "crs": "EPSG:4326",
+    "licence": "Open Government Licence \u2013 Vancouver",
+    "feature_count": 52,
+    "units": "feet (converted to metres in processing)",
+    "preprocessing_script": "project preprocessing pipeline (road model derivation)",
+    "processed_output": "data/processed/road-model.json (RoadSegment.rowWidthM)",
+    "note": "ROW width is NOT paved width \u2014 stored as per-segment metadata only, never used as the road surface"
+  }
+}
