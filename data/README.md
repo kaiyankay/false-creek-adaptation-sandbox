@@ -19,6 +19,7 @@ provenance record for every derived layer.
 | File | Contents |
 | --- | --- |
 | `site-metadata.json` | Grid definition (380×260 cells @ 2.5 m, EPSG:26910), DEM stats, water levels, counts, provenance, warnings, `dataMode`. |
+| `cells.bin` | Compact binary twin of `cells.json` (same columns; elevation as row-delta int16 centimetres, flags/types as uint8/uint16) written by `scripts/cells_bin.py`. The app fetches this first — ~420 KB gzipped, no JSON parsing; `cells.json` is the fallback. |
 | `cells.json` | Columnar per-cell arrays: `baseType` (index into `typeTable`), `elevation` (m CGVD28), `flags` (active/editable/water/shoreline/bridge/edge bits), `ownership`, ordered `shorelineOrder`. |
 | `buildings.json` | Real footprints as local-metre rings + schematic heights. |
 | `bridge.json` | Cambie Bridge centreline (real) + schematic deck constants. |
