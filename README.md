@@ -3,10 +3,9 @@
 **▶️ Play it here: https://kaiyankay.github.io/false-creek-adaptation-sandbox/**
 
 An interactive coastal adaptation sandbox for the Olympic Village reach of
-False Creek, Vancouver (LARC 580 Directed Studies prototype). Place shoreline,
-land, access and building interventions on a real-terrain model, switch the
-sea-level scenario, and read the live report. Works in a desktop browser and
-on iPad and iPhone (touch: tap to place, one finger to pan, two to zoom).
+False Creek, Vancouver. Place shoreline, land, access and building
+interventions on a real-terrain model, switch the sea-level scenario, and
+read the live report.
 
 This repository hosts only the built website files. Site data derives from
 City of Vancouver Open Data and LiDAR 2013 (bare-earth DEM); the flood model
